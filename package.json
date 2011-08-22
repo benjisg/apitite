@@ -1,8 +1,8 @@
 {
     "name" : "apititde",
-    "version" : "1.0",
-    "description" : "An API-agnostic REST query library that uses JSON API specifications",
-    "keywords" : ["agnostic", "services", "REST", "APIs"],
+    "version" : "0.1",
+    "description" : "An API-agnostic REST library that aims to provide a consistent interface between different APIs",
+    "keywords" : ["agnostic", "services", "REST", "API", "JSON"],
     "author": "Benji Schwartz-Gilbert <benji@blueklaxons.net>",
     "homepage": "http://github.com/benjisg/apitite",
     "main" : "lib/apitite.js",
@@ -12,9 +12,9 @@
     },
     "engine" : ["node >=0.4.0"],
     "dependencies": {
-	"colors" : "0.x.x",
-	"restler" : "0.2.x",
-	"schema" : "0.2.x"
+		"colors" : "0.x.x",
+		"restler" : "0.2.x",
+		"schema" : "0.2.x"
     },
     "licenses": [{
         "type": "The MIT License",

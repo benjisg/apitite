@@ -1,7 +1,7 @@
 {
     "name" : "apititde",
     "version" : "0.1",
-    "description" : "An API-agnostic REST library that aims to provide a consistent interface between different APIs",
+    "description" : "An API-agnostic REST module for node.js that aims to provide a consistent interface between different social APIs",
     "keywords" : ["agnostic", "services", "REST", "API", "JSON"],
     "author": "Benji Schwartz-Gilbert <benji@blueklaxons.net>",
     "homepage": "http://github.com/benjisg/apitite",

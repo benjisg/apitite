@@ -4,7 +4,6 @@ DEPENDENCIES
 + npm package dependencies:
   + colors
   + restler
-  + schema
 
 LICENSE
 --------

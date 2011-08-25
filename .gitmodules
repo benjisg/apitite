@@ -1,0 +1,6 @@
+[submodule "maps/apitite-twitter"]
+	path = maps/apitite-twitter
+	url = git://github.com/benjisg/apitite-twitter.git
+[submodule "thirdparty/restler"]
+	path = thirdparty/restler
+	url = git://github.com/benjisg/restler.git

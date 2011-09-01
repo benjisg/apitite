@@ -15,4 +15,16 @@ var fs = require("fs");
 // Test twitter
 (function testTwitter() {
 	Apitite.register(JSON.parse(fs.readFileSync("../maps/apitite-twitter/apitite-twitter.json", "utf8")));
+	Apitite.query.twitter.timelines.publicTimeline.GET({
+		"FORMAT" : "json",
+		"PARAMS" : ""
+	}, function(response) {
+		if(response.success) {
+			console.log("SUCCESS!");
+			console.log(response.data);
+		} else {
+			console.log("FAILURE!");
+			console.log(response.debug.error_msg);
+		}
+	});
 })();

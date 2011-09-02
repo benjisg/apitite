@@ -16,9 +16,9 @@ var fs = require("fs");
 (function testTwitter() {
 	Apitite.register(JSON.parse(fs.readFileSync("../maps/apitite-twitter/apitite-twitter.json", "utf8")));
 	Apitite.query.twitter.timelines.publicTimeline.GET({
-		"FORMAT" : "json",
+		"format" : "json",
 		"PARAMS" : ""
-	}, function(response) {
+	}, "json", function(response) {
 		if(response.success) {
 			console.log("SUCCESS!");
 			console.log(response.data);
